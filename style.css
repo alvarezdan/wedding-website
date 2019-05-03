@@ -1,0 +1,193 @@
+body {font-family: verdana;
+    font-size: 16pt
+    color: #505050;
+    text-align: center;
+  }
+  h2 {letter-spacing: .2em;}
+/* top of page and greeting*/
+/*==============================*/
+.home-hero{
+  background-image:url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  height: 100;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 8em;
+}
+
+.topnav {
+  overflow: hidden;
+  letter-spacing: .1em;
+}
+.topnav a {
+  float: top;
+  display:inline-block;
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.greeting {
+  padding: 10px;
+  letter-spacing: .2em;
+}
+.date {
+  letter-spacing: .1em;
+}
+.button
+a:link, a:visited {
+  background-color: #c4b185;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  opacity: .7;
+}
+.button
+a:hover, a:active {
+ background-color: #a59368;
+}
+
+/* Our story section */
+/*==============================*/
+.story {
+  padding-top: 50px;
+}
+
+h3{
+  color: #e8ca86;
+}
+p{
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+  letter-spacing: .05em;
+}
+
+/* gallery section */
+/*==============================*/
+* {box-sizing:border-box}
+.gallery {display: none;}
+img {
+  vertical-align: middle;
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+}
+
+.gallery-container{
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* the wedding section */
+/*==============================*/
+.thewedding {
+  background-color: rgba(226,202,105,0.8);
+  padding: 5em;
+}
+.thewedding h2{
+  letter-spacing: .1em;
+  color: white;
+
+}
+
+.thewedding table{
+  width: 100%
+  letter-spacing: .1em;
+
+  }
+
+/* getting there section */
+/*========================*/
+.gettingthere {
+  background-image: linear-gradient(rgba(206,169,22,0.7), rgba(206,169,22,0.7)), url("https://www.unh.edu/healthyunh/sites/default/files/blog-post/beach.jpg");
+  height: 100;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.gettingthere h3{color: white}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: tan;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Registry */
+.registry {
+  padding-top: 100px;
+}
+
+/* RSVP */
+.RSVP {
+  background-image:linear-gradient(rgba(206,169,22,0.7), rgba(206,169,22,0.7)), url("RSVPbottom.jpeg" );
+  height: 100;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5em;
+}
+
+/* Footer */
+.footer {
+   position: bottom;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+
+   color: black;
+   text-align: center;
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Maryam and Danny Wedding Site</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+  <body>
+
+  <!-- Top Home -->
+  <a name="home"></a>
+  <div class="home-hero">
+    <div class="topnav">
+      <a href="#home">HOME</a>
+      <a href="#ourstory">OUR STORY</a>
+      <a href="#gallery">GALLERY</a>
+      <a href="#wedding">WEDDING</a>
+      <a href="#gettingthere">GETTING THERE</a>
+      <a href="#registry">REGISTRY</a>
+      <a href="#rsvp">RSVP</a>
+    </div>
+
+    <h1 class="greeting">MARYAM AND DANNY'S
+    <br/>
+    <br/>BEACH WEDDING</h1>
+    <h5 class="date">October 4, 2016 | Pensacola Beach</h5>
+
+    <div class="button">
+      <a href="https://www.google.com/" target="_blank">RSVP</a>
+    </div>
+  </div>
+
+  <!-- Our Story Section -->
+  <a name="ourstory"></a>
+  <div class="story">
+    <h2>OUR STORY</h2>
+    <h3>WE ARE GETTING MARRIED ♥</h3>
+    <p>Once upon a time, in the south eastern realm of the northern American lands, lived this very unique woman. This woman was like something out of a fairy tale - long golden flowy hair, heart stopping eyes and a big beautiful smile. A very pleasant sight indeed.
+    <br/>
+    <br/>Along came a young lad, who had been traveling the world for five years prior. On his journey he encountered this fabulous woman. The site of her was like nothing he had ever seen before. The feeling he felt was like nothing he had felt before. He knew, he must get to know this woman.
+    <br/>
+    <br/>It didn’t take long before the two became close companions, and not long after, sweethearts. This was the beginning of a new era for both, the two very different lifestyles quickly became one epic journey. Together, for the past three and a half years, it has been nothing but lively adventures traveling the world and genuinely enjoying each other’s company, along with their pup Maddi, every single day.
+    <br/>
+    <br/>This story has only just begun…
+    <br/>
+    <br/>-
+    <br/>
+    <br/>XOXO</p>
+  </div>
+
+  <!-- Gallery section -->
+  <a name="gallery"></a>
+  <div class="gallery-container">
+    <div class="gallery fade">
+      <img src="IMG_1.jpg" alt="img1" style="width: 100%">
+    </div>
+
+    <div class="gallery fade">
+      <img src="IMG_2.jpg" alt="img2" style="width: 100%">
+    </div>
+
+    <div class="gallery fade">
+      <img src="IMG_3.jpg" alt="img3" style="width: 100%">
+    </div>
+
+    <div class="gallery fade">
+      <img src="IMG_4.jpg" alt="img4" style="width: 100%">
+    </div>
+
+    <div class="gallery fade">
+      <img src="IMG_5.jpeg" alt="img5"style="width: 100%">
+    </div>
+
+    <div class="gallery fade">
+      <img src="IMG_6.jpg" alt="img6" style="width: 100%">
+    </div>
+
+    <div class="gallery fade">
+      <img src="IMG_7.jpg" alt="img7" style="width: 100%">
+    </div>
+
+    <div class="gallery fade">
+      <img src="IMG_8.jpg" alt="img8" style="width: 100%">
+    </div>
+
+    <div class="gallery fade">
+      <img src="IMG_9.jpg" alt="img9" style="width: 100%">
+    </div>
+
+    <!-- dots -->
+    <br/>
+    <div style="text-align: center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+  </div>
+  <!-- javascript for slideshow -->
+  <script>
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("gallery");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 4 seconds
+  }
+  </script>
+  <br/>
+
+  <!-- Wedding Info Section -->
+  <a name="wedding"></a>
+  <div class="thewedding">
+    <h2>THE
+    <br/>WEDDING</h2>
+
+    <table summary="details" cellpadding="10" rules="cols" align="center">
+      <tr>
+        <th>When</th>
+        <th>Where</th>
+      </tr>
+      <tr>
+        <td>October 4, 2019</td>
+        <td>Pensacola Beach
+                          <br/>206 Ariola Dr
+                          <br/>Pensacola Beach, FL</td>
+      </tr>
+    </table>
+    <br/>
+    <br/>
+    <div class="button">
+      <a href="https://www.google.com/" target="_blank" style="border: 3px solid black">RSVP</a>
+    </div>
+  </div>
+
+  <!-- Transportation Section -->
+  <a name="gettingthere"></a>
+  <div class="gettingthere">
+    <h2>GETTING THERE</h2>
+    <h3>ACCOMODATION</h3>
+    <p>We are renting a beach house from Thursday, October 3 through Sunday, October 6. The wedding will be held on the beach in front of the rental home on Friday, October 4. We will have limited space in the house and will assign rooms on a first come, first served basis (the quicker you RSVP, the better the room you will receive). There are hotels nearby and we will share more information about room holds going forward.</p>
+
+    <h3>TRANSPORTATION</h3>
+
+    <h4>Nearest airport:</h4>
+    <p><a href="http://flypensacola.com/" target="_blank">Pensacola International Airport</a><br/>2430 Airport Blvd, Pensacola, FL 32504</p>
+
+    <h4>Car services in Pensacola:</h4>
+    <p>Lyft<br/>Uber<br/><a href="http://flypensacola.com/page/Transportation" target="_blank">Click here</a> for a list of taxis and car rental companies</p>
+  </div>
+
+  </div>
+
+  <!-- Registry Section -->
+  <a name="registry"></a>
+    <h2 class="registry">REGISTRY</h2>
+    <p style="padding-bottom: 100px">More information to come.</p>
+    <br/>
+
+  <!-- RSVP Section -->
+  <a name="rsvp"></a>
+  <div class="RSVP">
+    <h2>WE'RE SO EXCITED<br/>TO CELEBRATE WITH YOU</h2>
+
+
+  <div class="button">
+    <a href="https://www.google.com/" target="_blank" style="border: 3px solid black">RSVP</a>
+  </div>
+
+</div>
+
+  <!-- Footer -->
+    <br/>
+    <div class="footer">
+      <p><b>#AlvarezedOnTheBeach</b></p>
+      <p>© Daniel Alvarez - 2019</p>
+    </div>
+    <br/>
+  </body>
+</html>
